@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* Electric Circus -- CSS Template Document */
+/* ------------- */
+/* -- GENERAL --*/
+/* ----------- */
+html {
+  font-size: 14px;
+}
+body {
+  font-size: 1rem;
+  font-family: ;
+  color:;
+}
+.f_width {width: 100%;}
+.f_height {height: 100%;}
+.pos_rel {position: relative;}
+.pos_abs {position: absolute;}
+/* ----------- */
+/* -- FONTS --*/
+/* --------- */
+h1 {
+  font-size: ;
+  font-weight: ;
+  font-family: ;
+  line-height: ;
+}
+h2 {
+font-size: ;
+  font-weight: ;
+  font-family: ;
+  line-height: ;
+}
+h3 {
+font-size: ;
+  font-weight: ;
+  font-family: ;
+  line-height: ;
+}
+h4 {
+font-size: ;
+  font-weight: ;
+  font-family: ;
+  line-height: ;
+}
+/* -------------- */
+/* -- COLOURS -- */
+/* ------------ */
+.white {color:#fff;}
+.white_bg {background-color:#fff;}
+.black {color:#000;}
+.black_bg {background-color:#000;}
+/* -------------- */
+/* -- LINKS -- */
+/* ------------ */
+/* -------------- */
+/* -- BUTTONS -- */
+/* ------------ */
+/* -------------- */
+/* -- MARGINS -- */
+/* ------------ */
+.margin_0 {margin: 0;}
+.margin_1 {margin: 1rem;}
+.margin_2 {margin: 2rem;}
+.margin_3 {margin: 3rem;}
+.margin_4 {margin: 4rem;}
+.t_margin_0 {margin-top: 0;}
+.t_margin_05 {margin-top: 0.5rem;}
+.t_margin_1 {margin-top: 1rem;}
+.t_margin_2 {margin-top: 2rem;}
+.t_margin_3 {margin-top: 3rem;}
+.t_margin_4 {margin-top: 4rem;}
+.t_margin_5 {margin-top: 5rem;}
+.t_margin_6 {margin-top: 6rem;}
+.b_margin_05 {margin-bottom: 0.5rem;}
+.b_margin_1 {margin-bottom: 1rem;}
+.b_margin_2 {margin-bottom: 2rem;}
+.b_margin_3 {margin-bottom: 3rem;}
+.b_margin_4 {margin-bottom: 4rem;}
+.b_margin_5 {margin-bottom: 5rem;}
+.b_margin_6 {margin-bottom: 6rem;}
+.r_margin_0 {margin-right: 0;}
+.r_margin_05 {margin-right: 0.5rem;}
+.r_margin_1 {margin-right: 1rem;}
+.r_margin_2 {margin-right: 2rem;}
+.r_margin_3 {margin-right: 3rem;}
+.r_margin_4 {margin-right: 4rem;}
+.l_margin_0 {margin-left: 0;}
+.l_margin_05 {margin-left: 0.5rem;}
+.l_margin_1 {margin-left: 1rem;}
+.l_margin_2 {margin-left: 2rem;}
+.l_margin_3 {margin-left: 3rem;}
+.l_margin_4 {margin-left: 4rem;}
+/* -------------- */
+/* -- PADDINGS -- */
+/* ------------ */
+.padding_0 {padding: 0!important;}
+.padding_05 {padding: 0.5rem;}
+.padding_1 {padding: 1rem;}
+.padding_2 {padding: 2rem;}
+.padding_3 {padding: 3rem;}
+.padding_4 {padding: 4rem;}
+.t_padding_0 {padding-top: 0;}
+.t_padding_05 {padding-top: 0.5rem;}
+.t_padding_1 {padding-top: 1rem;}
+.t_padding_2 {padding-top: 2rem;}
+.t_padding_3 {padding-top: 3rem;}
+.t_padding_4 {padding-top: 4rem;}
+.t_padding_5 {padding-top: 5rem;}
+.t_padding_6 {padding-top: 6rem;}
+.b_padding_0 {padding-bottom: 0;}
+.b_padding_05 {padding-bottom: 0.5rem;}
+.b_padding_1 {padding-bottom: 1rem;}
+.b_padding_2 {padding-bottom: 2rem;}
+.b_padding_3 {padding-bottom: 3rem;}
+.b_padding_4 {padding-bottom: 4rem;}
+.b_padding_5 {padding-bottom: 5rem;}
+.b_padding_6 {padding-bottom: 6rem;}
+.r_padding_0 {padding-right: 0;}
+.r_padding_05 {padding-right: 0.5rem;}
+.r_padding_1 {padding-right: 1rem;}
+.r_padding_2 {padding-right: 2rem;}
+.r_padding_3 {padding-right: 3rem;}
+.r_padding_4 {padding-right: 4rem;}
+.l_padding_0 {padding-left: 0;}
+.l_padding_05 {padding-left: 0.5rem;}
+.l_padding_1 {padding-left: 1rem;}
+.l_padding_2 {padding-left: 2rem;}
+.l_padding_3 {padding-left: 3rem;}
+.l_padding_4 {padding-left: 4rem;}
+/* ------------------------ */
+/* -- BORDERS/UNDERLINES --*/
+/* ---------------------- */
+/* ------------------ */
+/* -- FORM STYLES --*/
+/* --------------- */
+/* ------------------- */
+/* -- SWIPER STYLES --*/
+/* ----------------- */
+/* ------------------------------*/
+/* ------- MEDIA QUERIES --------*/
+/* ------------------------------*/
+/* MOBILE */
+@media only screen and (max-width: 640px) {
+}
