@@ -24,9 +24,11 @@
         <p class="white t_margin_2 b_margin_2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         <a class="btn down-arrow white" href="#"></a>
       </article>
-      <figure class="flex-fill">
+      <picture class="flex-fill">
+        <source media="(max-width: 640px)" srcset="images/hero-image-mobile.png">
+        <source media="(min-width: 641px)" srcset="images/hero-image-desktop.png" >
         <img src="images/hero-image-desktop.png" />
-      </figure>
+      </picture>
     </section>
     <section class="section bg-tertiary flex-container align-middle v-gutter">
       <figure class="flex-fill l_padding_6 r_padding_6">

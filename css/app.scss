@@ -325,14 +325,6 @@ p {
 /* ------------------- */
 /* -- SWIPER STYLES --*/
 /* ----------------- */
-/* ------------------------------*/
-/* ------- MEDIA QUERIES --------*/
-/* ------------------------------*/
-/* MOBILE */
-@media only screen and (max-width: 640px) {
-}
-
-
 /* OVERRIDES */
 
 .preload * {
@@ -462,4 +454,27 @@ ul {
 
 footer {
   height: 145px;
+}
+
+
+/* ------------------------------*/
+/* ------- MEDIA QUERIES --------*/
+/* ------------------------------*/
+/* MOBILE */
+@media only screen and (max-width: 640px) {
+  .section {
+    flex-direction: column;
+  }
+
+.v-gutter {
+  padding-top: 60px;
+  padding-bottom: 40px;;
+}
+
+  .flex-container {
+    flex-direction: column;
+    figure {
+      margin-top: 10px;
+    }
+  }
 }

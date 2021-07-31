@@ -10,10 +10,27 @@ document.addEventListener("DOMContentLoaded", function(){
 
       const swiper = new Swiper('.swiper-container', {
         loop: false,
-        slidesPerGroup: 4,
-        loopFillGroupWithBlank: true,
-        slidesPerView: 4,
-        spaceBetween: 20,
+        breakpoints: {
+            991: {
+                slidesPerGroup: 4,
+                loopFillGroupWithBlank: true,
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerGroup: 3,
+                loopFillGroupWithBlank: true,
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            640: {
+                slidesPerGroup: 2,
+                loopFillGroupWithBlank: true,
+                slidesPerView: 2,
+                spaceBetween: 20,
+            }
+        },
+        slidesPerView: 1,
         pagination: {
           el: '.swiper-pagination',
         },

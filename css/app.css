@@ -572,10 +572,6 @@ p {
 /* ------------------- */
 /* -- SWIPER STYLES --*/
 /* ----------------- */
-/* ------------------------------*/
-/* ------- MEDIA QUERIES --------*/
-/* ------------------------------*/
-/* MOBILE */
 /* OVERRIDES */
 .preload * {
   -webkit-transition: none !important;
@@ -728,5 +724,31 @@ ul {
 
 footer {
   height: 145px;
+}
+
+/* ------------------------------*/
+/* ------- MEDIA QUERIES --------*/
+/* ------------------------------*/
+/* MOBILE */
+@media only screen and (max-width: 640px) {
+  .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .v-gutter {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flex-container figure {
+    margin-top: 10px;
+  }
 }
 /*# sourceMappingURL=app.css.map */
