@@ -644,7 +644,7 @@ figure img {
 .swiper-container .swiper-slide figure img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: auto;
+  min-width: 100%;
   min-height: 100%;
 }
 
@@ -749,6 +749,15 @@ footer {
   }
   .flex-container figure {
     margin-top: 10px;
+  }
+  .l_padding_6 {
+    padding-left: 2rem;
+  }
+  .r_padding_6 {
+    padding-right: 2rem;
+  }
+  .swiper-container .swiper-wrapper .swiper-slide figure {
+    height: auto;
   }
 }
 /*# sourceMappingURL=app.css.map */
